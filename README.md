@@ -2,6 +2,7 @@
 
 - [SSH Keys](#ssh-keys)
 - [Homebrew](#homebrew)
+- [Git Configuration](#git-configuration)
 
 ## SSH Keys
 ### Generate
@@ -35,4 +36,27 @@ $ brew bundle
 ### View Brew 'Caveats' for any post-install notes
 ```
 $ brew info git
+```
+
+## Git Configuration
+### Name
+```
+$ git config --global user.name "FIRST_NAME LAST_NAME"
+```
+### Email
+```
+$ git config --global user.email "MY_NAME@example.com"
+```
+
+### Aliases
+```
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+$ git config --global alias.unstage 'reset HEAD --'
+$ git config --global alias.last 'log -1 HEAD'
+$ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+$ git config --global alias.type 'cat-file -t'
+$ git config --global alias.dump 'cat-file -p'
 ```
