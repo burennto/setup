@@ -7,6 +7,7 @@ brew 'asdf'
 brew 'sqlite'
 brew 'postgresql'
 
+brew 'starship'
 brew 'htop'
 brew 'z'
 brew 'zsh-autosuggestions'
