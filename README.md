@@ -1,19 +1,8 @@
 # Setup
 
-- [SSH Keys](#ssh-keys)
 - [Homebrew](#homebrew)
+- [SSH Keys](#ssh-keys)
 - [Git Configuration](#git-configuration)
-
-## SSH Keys
-### Generate
-```
-$ ssh-keygen -t rsa -b 4096
-```
-
-### Copy to clipboard
-```
-$ pbcopy < ~/.ssh/id_rsa.pub
-```
 
 ## Homebrew
 ### Install Homebrew
@@ -36,6 +25,17 @@ $ brew bundle
 ### View Brew 'Caveats' for any post-install notes
 ```
 $ brew info git
+```
+
+## SSH Keys
+### Generate
+```
+$ ssh-keygen -t rsa -b 4096
+```
+
+### Copy to clipboard
+```
+$ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 ## Git Configuration
