@@ -3,6 +3,7 @@
 - [Homebrew](#homebrew)
 - [SSH Keys](#ssh-keys)
 - [Git Configuration](#git-configuration)
+- [ASDF](#asdf)
 
 ## Homebrew
 ### Install Homebrew
@@ -59,4 +60,22 @@ $ git config --global alias.last 'log -1 HEAD'
 $ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 $ git config --global alias.type 'cat-file -t'
 $ git config --global alias.dump 'cat-file -p'
+```
+
+## ASDF
+#### Install Ruby
+```
+$ asdf plugin add ruby
+$ asdf install ruby 2.7.5
+$ asdf global ruby 2.7.5
+```
+
+#### Install Node
+```
+$ asdf plugin add nodejs
+$ asdf install nodejs 8.9.4
+$ asdf install nodejs 10.16.13
+$ asdf install nodejs 15.14.0
+$ asdf install nodjes 16.13.2
+$ asdf global nodejs 16.13.2
 ```
