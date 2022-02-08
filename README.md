@@ -13,56 +13,45 @@
     - [VS Code](#vs-code)
 
 ## Homebrew
-#### Install Homebrew
+### Install
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Follow any post-install instructions like adding to $PATH etc.
-
-#### Install Brew Bundle
+### Brew Bundle
 ```
+# tap
 $ brew tap Homebrew/bundle
-```
 
-#### Run Brew Bundle
-```
+# install formulae/casks
 $ brew bundle
-```
 
-#### View Brew 'Caveats' for any post-install notes
-```
+# to view any post-install caveats
 $ brew info git
 ```
 
 ## SSH Keys
-#### Generate
+### Generate
 ```
 $ ssh-keygen -t rsa -b 4096
-```
 
-#### Copy to clipboard
-```
+# Copy to clipboard
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 ## Git
-#### Install
+### Install
 ```
 Installed via Brewfile
 ```
 
-#### Name
+#### Configure
 ```
+# Configs
 $ git config --global user.name "FIRST_NAME LAST_NAME"
-```
-#### Email
-```
 $ git config --global user.email "MY_NAME@example.com"
-```
 
-#### Aliases
-```
+# Aliases
 $ git config --global alias.co checkout
 $ git config --global alias.br branch
 $ git config --global alias.ci commit
@@ -75,19 +64,19 @@ $ git config --global alias.dump 'cat-file -p'
 ```
 
 ## asdf
-#### Install
+### Install
 ```
 Installed via Brewfile
 ```
 
-#### Install Ruby
+### Install Ruby
 ```
 $ asdf plugin add ruby
 $ asdf install ruby 2.7.5
 $ asdf global ruby 2.7.5
 ```
 
-#### Install Node
+### Install Node
 ```
 $ asdf plugin add nodejs
 $ asdf install nodejs 15.14.0
@@ -99,37 +88,38 @@ $ asdf global nodejs 16.13.2
 ## Caskaydia Cove Nerd Font
 Patched version of Cascadia Code.
 
-#### Install
+### Install
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode
 
 Download and install the `Regular`, `Light`, `SemiLight` and `ExtraLight` weights.
 
 ## Base16 Themes
-#### For iTerm2
+### For iTerm2
 https://github.com/martinlindhe/base16-iterm2
 
 ```
 $ git clone https://github.com/martinlindhe/base16-iterm2.git ~/dev/base16-iterm2
 ```
 
-#### For VS Code
+### For VS Code
 https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes
 
 ## Spaceship Prompt
 https://github.com/spaceship-prompt/spaceship-prompt
 
-#### Install
+### Install
 ```
 Installed via Brewfile
 ```
 
 ## iTerm2
+### Theme
 Install `base16-iterm2` as above and configure:
 
 - iTerm2 > Preferences > Profiles > Colors > Color Presets
   - Import `base16-gruvbox-dark-hard.itermcolors`
 
-#### Caskaydia Cove Nerd Font
+### Font
 - iTerm2 > Preferences > Profiles > Text
   - Font: `CaskaydiaCove Nerd Font`
   - Weight: `Light`
@@ -144,4 +134,14 @@ Install `base16-iterm2` as above and configure:
     - Top & bottom margins: `30`
 
 ## VS Code
+### Theme
 Install `base16-themes` extension as above, and enable `Dark Monokai` or `Dark Oceania Next`.
+
+### Font
+```
+{
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font'",
+  "editor.fontWeight": 300,
+  "editor.fontLigatures": true
+}
+```
