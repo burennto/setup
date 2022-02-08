@@ -31,3 +31,8 @@ $ brew tap Homebrew/bundle
 ```
 $ brew bundle
 ```
+
+### View Brew 'Caveats' for any post-install notes
+```
+$ brew info git
+```
