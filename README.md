@@ -44,7 +44,7 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 Installed via Brewfile
 ```
 
-#### Configure
+### Configure
 ```
 # Configs
 $ git config --global user.name "FIRST_NAME LAST_NAME"
@@ -112,35 +112,23 @@ Installed via Brewfile
 ```
 
 ## iTerm2
-### Theme
+### Colors
 Install `base16-iterm2` as above and configure:
 
-- iTerm2 > Preferences > Profiles > Colors > Color Presets
-  - Import `base16-gruvbox-dark-hard.itermcolors`
+- iTerm2 > Preferences > Profiles > Colors > Color Presets > Import > `base16-gruvbox-dark-hard.itermcolors`
 
 ### Font
-- iTerm2 > Preferences > Profiles > Text
-  - Font: `CaskaydiaCove Nerd Font`
-  - Weight: `Light`
-  - Line Height: `120`
+- iTerm2 > Preferences > Profiles > Text > Font > `CaskaydiaCove Nerd Font`
+- iTerm2 > Preferences > Profiles > Text > Weight > `Light`
+- iTerm2 > Preferences > Profiles > Text > Line height > `120`
 
-#### Other Settings
-- iTerm2 > Preferences > Appearance
-  - General
-    - Theme: `Compact`
-  - Panes
-    - Side margins: `30`
-    - Top & bottom margins: `30`
+### Other
+- iTerm2 > Preferences > Appearance > General > Theme > `Compact`
+- iTerm2 > Preferences > Appearance > Panes > Side margins > `30`
+- iTerm2 > Preferences > Appearance > Panes > Top & bottom margins > `30`
 
 ## VS Code
 ### Theme
-Install `base16-themes` extension as above, and enable `Dark Monokai` or `Dark Oceania Next`.
+Install the `base16-themes` extension as above, and enable `Dark Monokai` or `Dark Oceania Next`.
 
-### Font
-```
-{
-  "editor.fontFamily": "'CaskaydiaCove Nerd Font'",
-  "editor.fontWeight": 300,
-  "editor.fontLigatures": true
-}
-```
+Use [`vscode/settings.json`](vscode/settings.json) for settings.
