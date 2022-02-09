@@ -4,7 +4,6 @@
 - [SSH Keys](#ssh-keys)
 - [Git Configuration](#git-configuration)
 - [asdf](#asdf)
-
 - Customizations
     - [Caskaydia Cove Nerd Font](#caskaydia-cove-nerd-font)
     - [Base16 Themes](#base16-themes)

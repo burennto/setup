@@ -1,0 +1,14 @@
+{
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontSize": 15,
+  "editor.fontWeight": 300,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "markdown-preview-github-styles.colorTheme": "light",
+  "workbench.colorTheme": "Base16 Dark Oceanic Next"
+}
