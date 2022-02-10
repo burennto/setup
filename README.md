@@ -123,7 +123,8 @@ Install `base16-iterm2` as above and configure:
 - iTerm2 > Preferences > Profiles > Text > Line height > `120`
 
 ### Other
-- iTerm2 > Preferences > Appearance > General > Theme > `Compact`
+- iTerm2 > Preferences > General > Window > Uncheck `Adjust window when changing font size`
+- iTerm2 > Preferences > Appearance > General > Theme > `Minimal`
 - iTerm2 > Preferences > Appearance > Panes > Side margins > `30`
 - iTerm2 > Preferences > Appearance > Panes > Top & bottom margins > `30`
 
