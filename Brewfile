@@ -1,4 +1,5 @@
 tap 'homebrew/cask'
+tap 'homebrew/services'
 
 # Formulae
 brew 'git'
@@ -17,11 +18,11 @@ brew 'neofetch'
 # Casks
 cask 'iterm2'
 cask 'alfred'
-cask '1password'
+# cask '1password'
 cask 'docker'
 cask 'visual-studio-code'
 
-cask 'firefox'
+# cask 'firefox'
 cask 'chromium'
 cask 'postman'
 cask 'charles'
