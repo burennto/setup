@@ -1,7 +1,7 @@
 # Setup
 
-- [Homebrew](pages/homebrew)
-- [SSH Keys](pages/ssh-keys)
-- [Git](pages/git)
-- [asdf](pages/asdf)
-- [Customizations](pages/customizations)
+- [Homebrew](pages/homebrew.md)
+- [SSH Keys](pages/ssh-keys.md)
+- [Git](pages/git.md)
+- [asdf](pages/asdf.md)
+- [Customizations](pages/customizations.md)
