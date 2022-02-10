@@ -32,12 +32,15 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # Setup: Aliases
 alias ls="ls -lha"
-alias be="bundle exec"
-alias ber="be rails"
-alias rc="ber c"
-alias rubo="be rubocop"
 alias lc='colorls -lA --sd'
+alias b="bundle"
+alias be="bundle exec"
+alias rc="be rails c"
+alias ber="be rubocop"
+alias bes="be rspec"
+alias rubo="be rubocop"
 alias gst="git status"
-alias gpu="git pull"
+alias gpl="git pull"
+alias gps="git push"
 
 export CLICOLOR=1

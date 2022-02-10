@@ -7,6 +7,7 @@ brew 'asdf'
 
 brew 'sqlite'
 brew 'postgresql'
+brew 'redis'
 
 brew 'starship'
 brew 'htop'
@@ -14,6 +15,9 @@ brew 'z'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 brew 'neofetch'
+
+# Nokogiri may need this
+brew 'libxmlsec1'
 
 # Casks
 cask 'iterm2'

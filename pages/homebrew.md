@@ -17,4 +17,6 @@ $ brew info git
 ## Brew Services
 ```
   Installed via Brewfile
+
+  $ brew services start postgresql
 ```
