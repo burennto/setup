@@ -11,6 +11,7 @@ $ git config --global user.name "{FIRST} {LAST}"
 $ git config --global user.email "{EMAIL}"
 
 $ git config --global init.defaultBranch main
+$ git config --global core.excludesfile ~/.gitignore
 
 # Aliases
 $ git config --global alias.co checkout
