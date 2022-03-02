@@ -20,3 +20,9 @@ $ asdf install nodejs 16.13.2
 $ asdf install nodejs 17.1.0
 $ asdf global nodejs 16.13.2
 ```
+
+## Install yarn
+```
+$ corepack enable
+$ asdf reshim nodejs
+```
